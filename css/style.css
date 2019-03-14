@@ -1,3 +1,6 @@
+.nav {
+  background-color: red; }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,9 +10,6 @@
   background-color: red;
   color: cyan;
   border-color: #660000; }
-
-p {
-  color: red; }
 
 h4 {
   border: 2px solid red; }
@@ -49,5 +49,32 @@ h4 {
 
 .col12 {
   width: 100%; }
+
+#headerNav {
+  background-color: red; }
+  #headerNav ul li {
+    color: blue; }
+  #headerNav p {
+    width: 500px; }
+
+#footerNav ul li {
+  color: green; }
+
+h1 {
+  color: red;
+  background-color: yellow;
+  border: 10px solid green;
+  font-size: 40px;
+  text-decoration: underline; }
+
+h5 {
+  color: red;
+  background-color: yellow;
+  border: 10px solid green; }
+
+.button {
+  color: red;
+  background-color: yellow;
+  border: 10px solid green; }
 
 /*# sourceMappingURL=style.css.map */
